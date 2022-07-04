@@ -1,18 +1,31 @@
-name: Release Drafter
+name: goreleaser
+
 on:
   push:
-    branches:
-      - main
+    tags:
+      - '*'
+
 jobs:
-  update_release_draft:
+  goreleaser:
     runs-on: ubuntu-latest
     steps:
-      - uses: release-drafter/release-drafter@v5
-        id: drafter
+      -
+        name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      -
+        name: Set up Go
+        uses: actions/setup-go@v3
+      -
+        name: Run GoReleaser
+        uses: goreleaser/goreleaser-action@v3
+        with:
+          # either 'goreleaser' (default) or 'goreleaser-pro'
+          distribution: goreleaser
+          version: latest
+          args: release --rm-dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: write release drafter to file
-        shell: bash
-        run: |
-            echo "${{steps.drafter.outputs.body}}" >> release_note.md
-            cat release_note.md 
+          # Your GoReleaser Pro key, if you are using the 'goreleaser-pro' distribution
+          # GORELEASER_KEY: ${{ secrets.GORELEASER_KEY }}
