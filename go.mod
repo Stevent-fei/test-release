@@ -1,10 +1,9 @@
-module github.com/sealerio/sealer
+module github.com/Stevent-fei/test-release
 
 go 1.14
 
 require (
 	github.com/Masterminds/semver/v3 v3.1.1
-	github.com/Masterminds/sprig/v3 v3.2.2
 	github.com/aliyun/alibaba-cloud-sdk-go v1.61.985
 	github.com/cavaliergopher/grab/v3 v3.0.1
 	github.com/distribution/distribution/v3 v3.0.0-20211125133600-cc4627fc6e5f

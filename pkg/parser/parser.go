@@ -24,9 +24,9 @@ import (
 
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	strUtils "github.com/sealerio/sealer/utils/strings"
-	"github.com/sealerio/sealer/version"
+	v1 "../../types/api/v1"
+	strUtils "../../utils/strings"
+	"../../version"
 	"github.com/sirupsen/logrus"
 )
 

@@ -19,7 +19,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/sealerio/sealer/build/layerutils"
+	"../../build/layerutils"
 )
 
 type Manifests struct{}

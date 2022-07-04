@@ -20,9 +20,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/build"
-	"github.com/sealerio/sealer/utils/platform"
-	"github.com/sealerio/sealer/utils/strings"
+	"../../build"
+	"../../utils/platform"
+	"../../utils/strings"
 )
 
 type BuildFlag struct {

@@ -27,7 +27,7 @@ import (
 	"go.etcd.io/etcd/client/v3/snapshot"
 	"go.uber.org/zap"
 
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../utils/ssh"
 	"github.com/sirupsen/logrus"
 )
 

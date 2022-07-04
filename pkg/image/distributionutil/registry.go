@@ -18,12 +18,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sealerio/sealer/pkg/client/docker/auth"
+	"../../pkg/client/docker/auth"
 
 	"github.com/distribution/distribution/v3"
 	"github.com/docker/docker/api/types"
 
-	"github.com/sealerio/sealer/pkg/image/reference"
+	"../../pkg/image/reference"
 )
 
 func NewV2Repository(named reference.Named, actions ...string) (distribution.Repository, error) {

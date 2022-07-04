@@ -17,9 +17,9 @@ package store
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/pkg/image/reference"
-	"github.com/sealerio/sealer/pkg/image/types"
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	"../../pkg/image/reference"
+	"../../pkg/image/types"
+	v1 "../../types/api/v1"
 )
 
 type imageStore struct {

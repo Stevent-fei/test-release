@@ -20,9 +20,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/clusterfile"
-	"github.com/sealerio/sealer/pkg/runtime"
+	"../../common"
+	"../../pkg/clusterfile"
+	"../../pkg/runtime"
 )
 
 var altNames string

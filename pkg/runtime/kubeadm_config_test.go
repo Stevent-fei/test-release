@@ -22,8 +22,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/utils"
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../utils"
+	"../../utils/yaml"
 )
 
 const (

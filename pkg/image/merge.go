@@ -22,11 +22,11 @@ import (
 	"golang.org/x/sync/errgroup"
 	"sigs.k8s.io/yaml"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/reference"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/strings"
+	"../../common"
+	"../../pkg/image/reference"
+	"../../pkg/image/store"
+	v1 "../../types/api/v1"
+	"../../utils/strings"
 )
 
 func save(imageName string, image *v1.Image) error {

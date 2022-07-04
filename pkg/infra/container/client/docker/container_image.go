@@ -23,7 +23,7 @@ import (
 	dockerjsonmessage "github.com/docker/docker/pkg/jsonmessage"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 )
 
 func (p *Provider) DeleteImageResource(imageID string) error {

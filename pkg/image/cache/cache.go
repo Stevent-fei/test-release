@@ -21,7 +21,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	v1 "../../types/api/v1"
 )
 
 //LocalImageCache saves all the layer

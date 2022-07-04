@@ -20,7 +20,7 @@ import (
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/pkg/image/cache"
+	"../../pkg/image/cache"
 )
 
 type Prober interface {

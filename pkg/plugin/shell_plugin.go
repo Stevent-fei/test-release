@@ -18,10 +18,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/env"
-	"github.com/sealerio/sealer/utils/ssh"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	"../../common"
+	"../../pkg/env"
+	"../../utils/ssh"
+	strUtils "../../utils/strings"
 
 	"github.com/sirupsen/logrus"
 )

@@ -17,17 +17,17 @@ package guest
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/utils/maps"
-	"github.com/sealerio/sealer/utils/strings"
+	"../../utils/maps"
+	"../../utils/strings"
 
 	"github.com/moby/buildkit/frontend/dockerfile/shell"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/platform"
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../common"
+	"../../pkg/image/store"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	"../../utils/platform"
+	"../../utils/ssh"
 )
 
 type Interface interface {

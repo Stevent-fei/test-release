@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 
 	"github.com/sirupsen/logrus"
 )

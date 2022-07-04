@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"strings"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	v1 "../../types/api/v1"
 
-	"github.com/sealerio/sealer/utils/net"
+	"../../utils/net"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/client/k8s"
+	"../../common"
+	"../../pkg/client/k8s"
 )
 
 const (

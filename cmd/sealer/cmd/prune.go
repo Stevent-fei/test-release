@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sealerio/sealer/pkg/prune"
+	"../../pkg/prune"
 
 	"github.com/spf13/cobra"
 )

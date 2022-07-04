@@ -27,10 +27,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../utils/os/fs"
 	"github.com/sirupsen/logrus"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
 	"github.com/docker/docker/pkg/ioutils"
 	"github.com/opencontainers/go-digest"
@@ -39,11 +39,11 @@ import (
 	"github.com/vbatts/tar-split/tar/storage"
 	"sigs.k8s.io/yaml"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/types"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	platUtils "github.com/sealerio/sealer/utils/platform"
-	yamlUtils "github.com/sealerio/sealer/utils/yaml"
+	"../../common"
+	"../../pkg/image/types"
+	v1 "../../types/api/v1"
+	platUtils "../../utils/platform"
+	yamlUtils "../../utils/yaml"
 )
 
 // Backend is a service for image/layer read and write.

@@ -17,16 +17,16 @@ package processor
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/clusterfile"
-	"github.com/sealerio/sealer/pkg/config"
-	"github.com/sealerio/sealer/pkg/plugin"
+	"../../common"
+	"../../pkg/clusterfile"
+	"../../pkg/config"
+	"../../pkg/plugin"
 
-	"github.com/sealerio/sealer/pkg/filesystem/cloudfilesystem"
+	"../../pkg/filesystem/cloudfilesystem"
 
-	"github.com/sealerio/sealer/pkg/filesystem"
-	"github.com/sealerio/sealer/pkg/runtime"
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	"../../pkg/filesystem"
+	"../../pkg/runtime"
+	v2 "../../types/api/v2"
 )
 
 type ScaleProcessor struct {

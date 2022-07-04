@@ -24,7 +24,7 @@ import (
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/utils/archive"
+	"../../utils/archive"
 )
 
 type LayerID digest.Digest

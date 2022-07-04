@@ -17,7 +17,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/sealerio/sealer/pkg/image"
+	"../../pkg/image"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

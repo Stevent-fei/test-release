@@ -24,9 +24,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 
-	"github.com/sealerio/sealer/utils/hash"
+	"../../utils/hash"
 
 	"github.com/pkg/sftp"
 	"golang.org/x/crypto/ssh"

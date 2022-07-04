@@ -24,13 +24,13 @@ import (
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/store"
-	"github.com/sealerio/sealer/test/suites/build"
-	"github.com/sealerio/sealer/test/testhelper"
-	"github.com/sealerio/sealer/test/testhelper/settings"
-	"github.com/sealerio/sealer/utils/exec"
-	"github.com/sealerio/sealer/utils/platform"
+	"../../common"
+	"../../pkg/image/store"
+	"../../test/suites/build"
+	"../../test/testhelper"
+	"../../test/testhelper/settings"
+	"../../utils/exec"
+	"../../utils/platform"
 )
 
 func DoImageOps(action, imageName string) {

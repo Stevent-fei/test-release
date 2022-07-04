@@ -17,11 +17,11 @@ package prune
 import (
 	"path/filepath"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/store"
-	"github.com/sealerio/sealer/utils/strings"
+	"../../common"
+	"../../pkg/image/store"
+	"../../utils/strings"
 )
 
 type layerPrune struct {

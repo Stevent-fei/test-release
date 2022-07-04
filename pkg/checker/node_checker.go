@@ -20,9 +20,9 @@ import (
 
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/client/k8s"
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	"../../common"
+	"../../pkg/client/k8s"
+	v2 "../../types/api/v2"
 	"github.com/sirupsen/logrus"
 )
 

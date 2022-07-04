@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/utils/platform"
+	"../../pkg/image"
+	"../../utils/platform"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

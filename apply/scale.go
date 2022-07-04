@@ -19,18 +19,18 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sealerio/sealer/utils/hash"
+	"../../utils/hash"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	v1 "../../types/api/v1"
 
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../utils/yaml"
 
-	"github.com/sealerio/sealer/utils/net"
+	"../../utils/net"
 
-	"github.com/sealerio/sealer/apply/applydriver"
-	"github.com/sealerio/sealer/common"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	"../../apply/applydriver"
+	"../../common"
+	v2 "../../types/api/v2"
+	strUtils "../../utils/strings"
 )
 
 // NewScaleApplierFromArgs will filter ip list from command parameters.

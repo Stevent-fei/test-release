@@ -20,19 +20,19 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../utils/os/fs"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/env"
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils"
-	"github.com/sealerio/sealer/utils/mount"
-	"github.com/sealerio/sealer/utils/platform"
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../common"
+	"../../pkg/env"
+	"../../pkg/image"
+	"../../pkg/image/store"
+	v2 "../../types/api/v2"
+	"../../utils"
+	"../../utils/mount"
+	"../../utils/platform"
+	"../../utils/ssh"
 )
 
 type Interface interface {

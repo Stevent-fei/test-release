@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	osUtils "github.com/sealerio/sealer/utils/os"
+	osUtils "../../utils/os"
 	"github.com/sirupsen/logrus"
 
 	"github.com/opencontainers/go-digest"
@@ -42,7 +42,7 @@ func (fs *filesystem) LoadDistributionMetadata(layerID LayerID) (map[string]dige
 	)
 	distributionMetadataFile, err := os.Open(filepath.Clean(filepath.Join(layerDBPath, "distribution_layer_digest")))
 	if err != nil {
-		//lint:ignore nilerr https://github.com/sealerio/sealer/issues/610
+		//lint:ignore nilerr https://../../issues/610
 		return res, nil // ignore
 	}
 	defer func() {

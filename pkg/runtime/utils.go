@@ -22,14 +22,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sealerio/sealer/utils/exec"
+	"../../utils/exec"
 	"github.com/sirupsen/logrus"
 
+	"../../common"
+	osi "../../utils/os"
+	"../../utils/ssh"
 	ocispecs "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
-	"github.com/sealerio/sealer/common"
-	osi "github.com/sealerio/sealer/utils/os"
-	"github.com/sealerio/sealer/utils/ssh"
 )
 
 // VersionCompare :if v1 >= v2 return true, else return false

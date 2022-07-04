@@ -73,7 +73,7 @@ ldflags() {
   echo "${ldflags[*]-}"
 }
 
-readonly SEALER_GO_PACKAGE=github.com/sealerio/sealer
+readonly SEALER_GO_PACKAGE=github.com/Stevent-fei/test-release
 # The server platform we are building on.
 readonly SEALER_SUPPORTED_PLATFORMS=(
   linux/amd64

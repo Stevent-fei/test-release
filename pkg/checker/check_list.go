@@ -17,7 +17,7 @@ package checker
 import (
 	"fmt"
 
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	v2 "../../types/api/v2"
 )
 
 const (

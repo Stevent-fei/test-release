@@ -20,20 +20,20 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/sealerio/sealer/pkg/clusterfile"
+	"../../pkg/clusterfile"
 
-	"github.com/sealerio/sealer/utils/net"
+	"../../utils/net"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/client/k8s"
-	"github.com/sealerio/sealer/pkg/filesystem"
-	"github.com/sealerio/sealer/pkg/filesystem/clusterimage"
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/runtime"
-	apiv1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/platform"
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../common"
+	"../../pkg/client/k8s"
+	"../../pkg/filesystem"
+	"../../pkg/filesystem/clusterimage"
+	"../../pkg/image"
+	"../../pkg/runtime"
+	apiv1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	"../../utils/platform"
+	"../../utils/ssh"
 
 	v1 "k8s.io/api/core/v1"
 )

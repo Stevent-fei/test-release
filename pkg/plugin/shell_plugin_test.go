@@ -17,9 +17,9 @@ package plugin
 import (
 	"testing"
 
-	"github.com/sealerio/sealer/common"
-	typev1 "github.com/sealerio/sealer/types/api/v1"
-	typev2 "github.com/sealerio/sealer/types/api/v2"
+	"../../common"
+	typev1 "../../types/api/v1"
+	typev2 "../../types/api/v2"
 )
 
 /*

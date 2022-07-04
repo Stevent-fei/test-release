@@ -17,10 +17,10 @@ package filesystem
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/pkg/filesystem/cloudfilesystem"
-	"github.com/sealerio/sealer/pkg/filesystem/clusterimage"
-	"github.com/sealerio/sealer/pkg/image/store"
-	"github.com/sealerio/sealer/pkg/runtime"
+	"../../pkg/filesystem/cloudfilesystem"
+	"../../pkg/filesystem/clusterimage"
+	"../../pkg/image/store"
+	"../../pkg/runtime"
 )
 
 // NewCloudClusterMounter :mount and unmount ClusterImage.

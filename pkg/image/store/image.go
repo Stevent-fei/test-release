@@ -18,9 +18,9 @@ import (
 	"os"
 	"path/filepath"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 )
 
 func DeleteImageLocal(imageID string) (err error) {

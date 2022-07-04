@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sealerio/sealer/pkg/ipvs"
-	"github.com/sealerio/sealer/utils/net"
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../pkg/ipvs"
+	"../../utils/net"
+	"../../utils/yaml"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -22,21 +22,21 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/utils/os"
+	"../../common"
+	"../../utils/os"
 
 	"github.com/onsi/gomega"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/yaml"
 
-	"github.com/sealerio/sealer/pkg/checker"
-	"github.com/sealerio/sealer/pkg/infra"
-	"github.com/sealerio/sealer/test/testhelper"
-	"github.com/sealerio/sealer/test/testhelper/settings"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils"
-	"github.com/sealerio/sealer/utils/exec"
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../pkg/checker"
+	"../../pkg/infra"
+	"../../test/testhelper"
+	"../../test/testhelper/settings"
+	v1 "../../types/api/v1"
+	"../../utils"
+	"../../utils/exec"
+	"../../utils/ssh"
 )
 
 func getFixtures() string {

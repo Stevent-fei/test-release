@@ -23,12 +23,12 @@ import (
 	"github.com/docker/docker/api/types/mount"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/infra/container/client"
-	"github.com/sealerio/sealer/pkg/infra/container/client/docker"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	osi "github.com/sealerio/sealer/utils/os"
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../common"
+	"../../pkg/infra/container/client"
+	"../../pkg/infra/container/client/docker"
+	v1 "../../types/api/v1"
+	osi "../../utils/os"
+	"../../utils/ssh"
 )
 
 const (

@@ -19,9 +19,9 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/pkg/image"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/platform"
+	"../../pkg/image"
+	v1 "../../types/api/v1"
+	"../../utils/platform"
 )
 
 var inspectPlatformFlag string

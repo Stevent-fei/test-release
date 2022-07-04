@@ -19,9 +19,9 @@ import (
 
 	. "github.com/onsi/ginkgo"
 
-	"github.com/sealerio/sealer/test/suites/apply"
-	"github.com/sealerio/sealer/test/testhelper"
-	"github.com/sealerio/sealer/test/testhelper/settings"
+	"../../test/suites/apply"
+	"../../test/testhelper"
+	"../../test/testhelper/settings"
 )
 
 var _ = Describe("sealer run", func() {

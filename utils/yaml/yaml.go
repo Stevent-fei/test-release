@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"strings"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
 	"sigs.k8s.io/yaml"
 )

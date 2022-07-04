@@ -15,8 +15,8 @@
 package image
 
 import (
-	"github.com/sealerio/sealer/pkg/image/store"
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../pkg/image/store"
+	"../../utils/os/fs"
 )
 
 func NewImageService() (Service, error) {

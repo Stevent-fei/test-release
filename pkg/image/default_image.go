@@ -31,14 +31,14 @@ import (
 	"github.com/docker/docker/pkg/streamformatter"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/client/docker/auth"
-	"github.com/sealerio/sealer/pkg/image/distributionutil"
-	"github.com/sealerio/sealer/pkg/image/reference"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	osi "github.com/sealerio/sealer/utils/os"
-	"github.com/sealerio/sealer/utils/strings"
+	"../../common"
+	"../../pkg/client/docker/auth"
+	"../../pkg/image/distributionutil"
+	"../../pkg/image/reference"
+	"../../pkg/image/store"
+	v1 "../../types/api/v1"
+	osi "../../utils/os"
+	"../../utils/strings"
 )
 
 // DefaultImageService is the default service, which is used for image pull/push

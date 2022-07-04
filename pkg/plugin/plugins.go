@@ -22,15 +22,15 @@ import (
 	"plugin"
 	"strings"
 
-	"github.com/sealerio/sealer/utils"
+	"../../utils"
 
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../utils/yaml"
 
-	"github.com/sealerio/sealer/common"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/platform"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	"../../common"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	"../../utils/platform"
+	strUtils "../../utils/strings"
 )
 
 type InvalidPluginTypeError struct {

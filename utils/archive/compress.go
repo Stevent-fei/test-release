@@ -28,7 +28,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 	"github.com/sirupsen/logrus"
 )
 

@@ -19,8 +19,8 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/apply/processor"
-	"github.com/sealerio/sealer/pkg/cert"
+	"../../apply/processor"
+	"../../pkg/cert"
 
 	"github.com/spf13/cobra"
 )

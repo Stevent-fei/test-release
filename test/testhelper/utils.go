@@ -26,13 +26,13 @@ import (
 	"github.com/sirupsen/logrus"
 	"sigs.k8s.io/yaml"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/test/testhelper/settings"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/exec"
-	"github.com/sealerio/sealer/utils/net"
-	"github.com/sealerio/sealer/utils/os/fs"
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../common"
+	"../../test/testhelper/settings"
+	v1 "../../types/api/v1"
+	"../../utils/exec"
+	"../../utils/net"
+	"../../utils/os/fs"
+	"../../utils/ssh"
 )
 
 func GetPwd() string {

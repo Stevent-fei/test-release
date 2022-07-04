@@ -23,10 +23,10 @@ import (
 	"os"
 	"path/filepath"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
+	"../../common"
 	"github.com/docker/docker/api/types"
-	"github.com/sealerio/sealer/common"
 )
 
 type Item struct {

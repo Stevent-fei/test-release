@@ -22,10 +22,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/image/reference"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/platform"
+	"../../pkg/image"
+	"../../pkg/image/reference"
+	v1 "../../types/api/v1"
+	"../../utils/platform"
 )
 
 type saveFlag struct {

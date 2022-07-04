@@ -20,12 +20,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/cert"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	osi "github.com/sealerio/sealer/utils/os"
-	"github.com/sealerio/sealer/utils/ssh"
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../common"
+	"../../pkg/cert"
+	v2 "../../types/api/v2"
+	osi "../../utils/os"
+	"../../utils/ssh"
+	"../../utils/yaml"
 
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"

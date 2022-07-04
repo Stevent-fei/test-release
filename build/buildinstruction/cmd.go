@@ -21,12 +21,12 @@ import (
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/cache"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/exec"
-	"github.com/sealerio/sealer/utils/mount"
-	"github.com/sealerio/sealer/utils/os"
+	"../../common"
+	"../../pkg/image/cache"
+	v1 "../../types/api/v1"
+	"../../utils/exec"
+	"../../utils/mount"
+	"../../utils/os"
 )
 
 type CmdInstruction struct {

@@ -22,7 +22,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/sealerio/sealer/utils/strings"
+	"../../utils/strings"
 	"github.com/sirupsen/logrus"
 )
 

@@ -21,15 +21,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/utils/hash"
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../common"
+	"../../utils/hash"
+	"../../utils/yaml"
 
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/vpc"
 	"github.com/sirupsen/logrus"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	v1 "../../types/api/v1"
 )
 
 type ActionName string

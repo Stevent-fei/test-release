@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 )
 
 var rootDirs = []string{

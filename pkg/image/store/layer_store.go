@@ -23,15 +23,15 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../utils/os/fs"
 	"github.com/sirupsen/logrus"
 
 	"github.com/opencontainers/go-digest"
 	"github.com/vbatts/tar-split/tar/asm"
 	"github.com/vbatts/tar-split/tar/storage"
 
-	"github.com/sealerio/sealer/pkg/image/reference"
-	"github.com/sealerio/sealer/utils/archive"
+	"../../pkg/image/reference"
+	"../../utils/archive"
 )
 
 type layerStore struct {

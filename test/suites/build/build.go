@@ -23,8 +23,8 @@ import (
 
 	"github.com/onsi/gomega"
 
-	"github.com/sealerio/sealer/test/testhelper/settings"
-	"github.com/sealerio/sealer/utils/exec"
+	"../../test/testhelper/settings"
+	"../../utils/exec"
 )
 
 func GetFixtures() string {

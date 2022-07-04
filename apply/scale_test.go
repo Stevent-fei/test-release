@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 	"github.com/sirupsen/logrus"
 )
 

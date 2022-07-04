@@ -40,7 +40,7 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	watchtools "k8s.io/client-go/tools/watch"
 
-	"github.com/sealerio/sealer/pkg/debug/clusterinfo"
+	"../../pkg/debug/clusterinfo"
 )
 
 const (

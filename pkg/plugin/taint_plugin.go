@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sealerio/sealer/pkg/client/k8s"
-	"github.com/sealerio/sealer/utils/net"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	"../../pkg/client/k8s"
+	"../../utils/net"
+	strUtils "../../utils/strings"
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"
 )

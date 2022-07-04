@@ -35,11 +35,11 @@ import (
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/client/docker/auth"
-	"github.com/sealerio/sealer/pkg/image/distributionutil"
-	"github.com/sealerio/sealer/pkg/image/save/distributionpkg/proxy"
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	"../../common"
+	"../../pkg/client/docker/auth"
+	"../../pkg/image/distributionutil"
+	"../../pkg/image/save/distributionpkg/proxy"
+	v1 "../../types/api/v1"
 )
 
 const (

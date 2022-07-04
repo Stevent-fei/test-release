@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/cert"
-	"github.com/sealerio/sealer/utils/net"
-	osi "github.com/sealerio/sealer/utils/os"
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../common"
+	"../../pkg/cert"
+	"../../utils/net"
+	osi "../../utils/os"
+	"../../utils/yaml"
 
 	"github.com/sirupsen/logrus"
 	"golang.org/x/crypto/bcrypt"

@@ -19,7 +19,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 	"github.com/sirupsen/logrus"
 )
 

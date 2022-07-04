@@ -15,8 +15,8 @@
 package image
 
 import (
-	"github.com/sealerio/sealer/pkg/image/store"
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	"../../pkg/image/store"
+	v1 "../../types/api/v1"
 )
 
 // MetadataService is the interface for providing image metadata service

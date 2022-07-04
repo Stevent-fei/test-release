@@ -24,9 +24,9 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/test/testhelper"
-	"github.com/sealerio/sealer/test/testhelper/settings"
+	"../../common"
+	"../../test/testhelper"
+	"../../test/testhelper/settings"
 )
 
 func TestSealerTests(t *testing.T) {

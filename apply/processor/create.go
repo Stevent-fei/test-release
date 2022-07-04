@@ -17,20 +17,20 @@ package processor
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/utils/net"
+	"../../utils/net"
 
-	"github.com/sealerio/sealer/pkg/clusterfile"
-	"github.com/sealerio/sealer/pkg/config"
-	"github.com/sealerio/sealer/pkg/filesystem"
-	"github.com/sealerio/sealer/pkg/filesystem/clusterimage"
-	"github.com/sealerio/sealer/pkg/guest"
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/plugin"
-	"github.com/sealerio/sealer/pkg/runtime"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/platform"
-	"github.com/sealerio/sealer/utils/ssh"
+	"../../pkg/clusterfile"
+	"../../pkg/config"
+	"../../pkg/filesystem"
+	"../../pkg/filesystem/clusterimage"
+	"../../pkg/guest"
+	"../../pkg/image"
+	"../../pkg/plugin"
+	"../../pkg/runtime"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	"../../utils/platform"
+	"../../utils/ssh"
 )
 
 type CreateProcessor struct {

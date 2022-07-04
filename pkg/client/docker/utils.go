@@ -23,8 +23,8 @@ import (
 	dockerregistry "github.com/docker/docker/registry"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/pkg/client/docker/auth"
-	normalreference "github.com/sealerio/sealer/pkg/image/reference"
+	"../../pkg/client/docker/auth"
+	normalreference "../../pkg/image/reference"
 )
 
 func GetCanonicalImageName(rawImageName string) (reference.Named, error) {

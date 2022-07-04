@@ -21,8 +21,8 @@ import (
 	"github.com/onsi/gomega/gbytes"
 	"github.com/onsi/gomega/gexec"
 
-	"github.com/sealerio/sealer/test/testhelper"
-	"github.com/sealerio/sealer/test/testhelper/settings"
+	"../../test/testhelper"
+	"../../test/testhelper/settings"
 )
 
 func Login() {

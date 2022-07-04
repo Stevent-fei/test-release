@@ -20,10 +20,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/image/utils"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/platform"
+	"../../pkg/image"
+	"../../pkg/image/utils"
+	v1 "../../types/api/v1"
+	"../../utils/platform"
 )
 
 type removeImageFlag struct {

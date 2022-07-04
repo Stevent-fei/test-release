@@ -23,7 +23,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../utils/os/fs"
 )
 
 func IsFileExist(fileName string) bool {

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/sealerio/sealer/utils/net"
+	"../../utils/net"
 )
 
 /*

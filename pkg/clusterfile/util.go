@@ -21,13 +21,13 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/sealerio/sealer/utils/hash"
+	"../../utils/hash"
 
-	yamlUtils "github.com/sealerio/sealer/utils/yaml"
+	yamlUtils "../../utils/yaml"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/cert"
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	"../../common"
+	"../../pkg/cert"
+	v2 "../../types/api/v2"
 )
 
 var ErrClusterNotExist = fmt.Errorf("no cluster exist")

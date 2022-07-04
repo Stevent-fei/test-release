@@ -15,12 +15,12 @@
 package processor
 
 import (
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/filesystem"
-	"github.com/sealerio/sealer/pkg/filesystem/cloudfilesystem"
-	"github.com/sealerio/sealer/pkg/runtime"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/net"
+	"../../common"
+	"../../pkg/filesystem"
+	"../../pkg/filesystem/cloudfilesystem"
+	"../../pkg/runtime"
+	v2 "../../types/api/v2"
+	"../../utils/net"
 )
 
 type UpgradeProcessor struct {

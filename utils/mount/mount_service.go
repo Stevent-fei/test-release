@@ -21,10 +21,10 @@ import (
 	"github.com/shirou/gopsutil/disk"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/utils/exec"
-	"github.com/sealerio/sealer/utils/os/fs"
-	"github.com/sealerio/sealer/utils/ssh"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	"../../utils/exec"
+	"../../utils/os/fs"
+	"../../utils/ssh"
+	strUtils "../../utils/strings"
 )
 
 type Service interface {

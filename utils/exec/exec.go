@@ -21,7 +21,7 @@ import (
 	"os/user"
 	"strings"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 
 	"github.com/sirupsen/logrus"
 )

@@ -18,13 +18,13 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../utils/yaml"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/save"
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	"../../common"
+	"../../pkg/image/save"
+	v1 "../../types/api/v1"
 )
 
 var (

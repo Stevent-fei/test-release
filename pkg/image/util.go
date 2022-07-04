@@ -22,10 +22,10 @@ import (
 	"github.com/opencontainers/go-digest"
 	"sigs.k8s.io/yaml"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	"../../common"
+	"../../pkg/image/store"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
 )
 
 // GetImageLayerDirs return image hash list

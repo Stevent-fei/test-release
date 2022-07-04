@@ -2,7 +2,7 @@
 
 > We used the `k8s.io/code-generator`  generator deepCopy code
 
-1. clone code on `$GOPATH/src/github.com/sealerio/sealer` dir
+1. clone code on `$GOPATH/src/github.com/Stevent-fei/test-release` dir
 
 2. in api root dir add some comments in `doc.go`
 

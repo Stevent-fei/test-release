@@ -15,7 +15,7 @@
 package cmd
 
 import (
-	"github.com/sealerio/sealer/utils/net"
+	"../../utils/net"
 
 	"github.com/spf13/cobra"
 )

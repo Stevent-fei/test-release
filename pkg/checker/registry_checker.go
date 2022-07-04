@@ -18,13 +18,13 @@ import (
 	"context"
 	"fmt"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
-	"github.com/sealerio/sealer/pkg/client/docker/auth"
+	"../../pkg/client/docker/auth"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/distributionutil"
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	"../../common"
+	"../../pkg/image/distributionutil"
+	v2 "../../types/api/v2"
 )
 
 type RegistryChecker struct {

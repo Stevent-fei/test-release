@@ -26,10 +26,10 @@ import (
 	k8sv1 "k8s.io/api/core/v1"
 	k8sYaml "sigs.k8s.io/yaml"
 
-	"github.com/sealerio/sealer/common"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/os"
+	"../../common"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	"../../utils/os"
 )
 
 /*

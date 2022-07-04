@@ -21,7 +21,7 @@ import (
 	"github.com/docker/docker/api/types/network"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/pkg/infra/container/client"
+	"../../pkg/infra/container/client"
 )
 
 func (p *Provider) getUserNsMode() (container.UsernsMode, error) {

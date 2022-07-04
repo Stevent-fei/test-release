@@ -19,13 +19,13 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/sealerio/sealer/apply/applydriver"
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/clusterfile"
-	"github.com/sealerio/sealer/pkg/filesystem"
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	"../../apply/applydriver"
+	"../../common"
+	"../../pkg/clusterfile"
+	"../../pkg/filesystem"
+	"../../pkg/image"
+	"../../pkg/image/store"
+	v2 "../../types/api/v2"
 )
 
 type Args struct {

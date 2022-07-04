@@ -18,8 +18,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	platUtil "github.com/sealerio/sealer/utils/platform"
+	v1 "../../types/api/v1"
+	platUtil "../../utils/platform"
 	"github.com/sirupsen/logrus"
 
 	"github.com/opencontainers/go-digest"

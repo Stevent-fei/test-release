@@ -17,7 +17,7 @@ package ssh
 import (
 	"testing"
 
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../utils/os/fs"
 	"github.com/sirupsen/logrus"
 )
 

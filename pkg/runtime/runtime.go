@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"sync"
 
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils"
+	v2 "../../types/api/v2"
+	"../../utils"
 	"github.com/sirupsen/logrus"
 )
 

@@ -15,9 +15,9 @@
 package prune
 
 import (
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/utils/mount"
-	osi "github.com/sealerio/sealer/utils/os"
+	"../../common"
+	"../../utils/mount"
+	osi "../../utils/os"
 )
 
 type buildPrune struct {

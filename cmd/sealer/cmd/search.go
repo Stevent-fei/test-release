@@ -18,9 +18,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/reference"
-	save2 "github.com/sealerio/sealer/pkg/image/save"
+	"../../common"
+	"../../pkg/image/reference"
+	save2 "../../pkg/image/save"
 
 	reference2 "github.com/distribution/distribution/v3/reference"
 	"github.com/olekukonko/tablewriter"

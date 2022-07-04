@@ -19,11 +19,11 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/sealerio/sealer/apply/applydriver"
-	"github.com/sealerio/sealer/common"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/net"
+	"../../apply/applydriver"
+	"../../common"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	"../../utils/net"
 )
 
 func ConstructClusterFromArg(imageName string, runArgs *Args) (*v2.Cluster, error) {

@@ -25,9 +25,9 @@ import (
 	dockerjsonmessage "github.com/docker/docker/pkg/jsonmessage"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/utils/os"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	"../../common"
+	"../../utils/os"
+	strUtils "../../utils/strings"
 )
 
 func (d Docker) ImagesPull(images []string) error {

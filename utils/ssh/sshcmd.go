@@ -19,8 +19,8 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/utils/net"
+	"../../common"
+	"../../utils/net"
 
 	"github.com/sirupsen/logrus"
 )

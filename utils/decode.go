@@ -30,10 +30,10 @@ import (
 	"k8s.io/kube-proxy/config/v1alpha1"
 	"k8s.io/kubelet/config/v1beta1"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/runtime/kubeadm_types/v1beta2"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
+	"../../common"
+	"../../pkg/runtime/kubeadm_types/v1beta2"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
 )
 
 const typeV1 = "zlink.aliyun.com/v1alpha1"

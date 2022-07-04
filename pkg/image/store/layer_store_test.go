@@ -22,8 +22,8 @@ import (
 	"github.com/sirupsen/logrus"
 	"gotest.tools/skip"
 
-	"github.com/sealerio/sealer/common"
-	osUtils "github.com/sealerio/sealer/utils/os"
+	"../../common"
+	osUtils "../../utils/os"
 )
 
 const fileContent = "fake file content"

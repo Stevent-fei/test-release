@@ -23,13 +23,13 @@ import (
 	runtime2 "k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/util/yaml"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/config"
-	"github.com/sealerio/sealer/pkg/env"
-	"github.com/sealerio/sealer/pkg/runtime"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	yaml2 "github.com/sealerio/sealer/utils"
+	"../../common"
+	"../../pkg/config"
+	"../../pkg/env"
+	"../../pkg/runtime"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	yaml2 "../../utils"
 	"github.com/sirupsen/logrus"
 )
 

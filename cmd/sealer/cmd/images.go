@@ -22,9 +22,9 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/image/reference"
+	"../../common"
+	"../../pkg/image"
+	"../../pkg/image/reference"
 )
 
 const (

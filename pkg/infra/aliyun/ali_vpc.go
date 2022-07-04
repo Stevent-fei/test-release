@@ -21,7 +21,7 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses"
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/vpc"
 
-	"github.com/sealerio/sealer/utils"
+	"../../utils"
 )
 
 type VpcManager struct {

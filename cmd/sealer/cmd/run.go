@@ -20,10 +20,10 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/apply"
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/cert"
-	"github.com/sealerio/sealer/utils/strings"
+	"../../apply"
+	"../../common"
+	"../../pkg/cert"
+	"../../utils/strings"
 )
 
 var runArgs *apply.Args

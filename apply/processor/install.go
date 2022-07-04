@@ -15,13 +15,13 @@
 package processor
 
 import (
-	"github.com/sealerio/sealer/pkg/clusterfile"
-	"github.com/sealerio/sealer/pkg/config"
-	"github.com/sealerio/sealer/pkg/filesystem"
-	"github.com/sealerio/sealer/pkg/guest"
-	"github.com/sealerio/sealer/pkg/plugin"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/platform"
+	"../../pkg/clusterfile"
+	"../../pkg/config"
+	"../../pkg/filesystem"
+	"../../pkg/guest"
+	"../../pkg/plugin"
+	v2 "../../types/api/v2"
+	"../../utils/platform"
 )
 
 type InstallProcessor struct {

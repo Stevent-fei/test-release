@@ -20,8 +20,8 @@ import (
 
 	metaV1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/version"
+	v1 "../../types/api/v1"
+	"../../version"
 )
 
 func Test_decodeLine(t *testing.T) {

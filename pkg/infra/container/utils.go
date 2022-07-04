@@ -20,8 +20,8 @@ import (
 	"strconv"
 	"strings"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/exec"
+	v1 "../../types/api/v1"
+	"../../utils/exec"
 )
 
 func IsDockerAvailable() bool {

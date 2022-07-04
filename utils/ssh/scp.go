@@ -29,8 +29,8 @@ import (
 	"github.com/pkg/sftp"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/utils/net"
-	osi "github.com/sealerio/sealer/utils/os"
+	"../../utils/net"
+	osi "../../utils/os"
 )
 
 const (

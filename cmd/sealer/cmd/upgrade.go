@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/sealerio/sealer/apply"
-	"github.com/sealerio/sealer/pkg/clusterfile"
+	"../../apply"
+	"../../pkg/clusterfile"
 
 	"github.com/spf13/cobra"
 )

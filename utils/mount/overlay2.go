@@ -26,7 +26,7 @@ import (
 	"strings"
 	"syscall"
 
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	strUtils "../../utils/strings"
 	"github.com/sirupsen/logrus"
 )
 

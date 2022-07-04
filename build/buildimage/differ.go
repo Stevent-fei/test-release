@@ -21,14 +21,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 
-	"github.com/sealerio/sealer/build/layerutils/charts"
-	manifest "github.com/sealerio/sealer/build/layerutils/manifests"
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/save"
-	"github.com/sealerio/sealer/pkg/runtime"
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	"../../build/layerutils/charts"
+	manifest "../../build/layerutils/manifests"
+	"../../common"
+	"../../pkg/image/save"
+	"../../pkg/runtime"
+	v1 "../../types/api/v1"
 	"golang.org/x/sync/errgroup"
 )
 

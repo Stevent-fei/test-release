@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/sealerio/sealer/utils/ssh"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	"../../utils/ssh"
+	strUtils "../../utils/strings"
 	"github.com/sirupsen/logrus"
 )
 

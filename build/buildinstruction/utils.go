@@ -25,13 +25,13 @@ import (
 	"github.com/sirupsen/logrus"
 	fsutil "github.com/tonistiigi/fsutil/copy"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/image/cache"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/archive"
-	"github.com/sealerio/sealer/utils/collector"
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../common"
+	"../../pkg/image"
+	"../../pkg/image/cache"
+	v1 "../../types/api/v1"
+	"../../utils/archive"
+	"../../utils/collector"
+	"../../utils/os/fs"
 )
 
 func tryCache(parentID cache.ChainID,

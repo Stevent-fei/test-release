@@ -25,8 +25,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/utils/exec"
+	"../../common"
+	"../../utils/exec"
 	"github.com/sirupsen/logrus"
 
 	"github.com/vishvananda/netlink"

@@ -22,12 +22,12 @@ import (
 	"github.com/opencontainers/go-digest"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/cache"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/collector"
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../common"
+	"../../pkg/image/cache"
+	"../../pkg/image/store"
+	v1 "../../types/api/v1"
+	"../../utils/collector"
+	"../../utils/os/fs"
 )
 
 const ArchReg = "${ARCH}"

@@ -18,10 +18,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/client/k8s"
-	"github.com/sealerio/sealer/pkg/runtime/kubeadm_types/v1beta2"
-	"github.com/sealerio/sealer/utils"
+	"../../common"
+	"../../pkg/client/k8s"
+	"../../pkg/runtime/kubeadm_types/v1beta2"
+	"../../utils"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

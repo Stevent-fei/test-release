@@ -19,11 +19,11 @@ import (
 
 	. "github.com/onsi/ginkgo"
 
-	"github.com/sealerio/sealer/test/suites/build"
-	"github.com/sealerio/sealer/test/suites/image"
-	"github.com/sealerio/sealer/test/suites/registry"
-	"github.com/sealerio/sealer/test/testhelper"
-	"github.com/sealerio/sealer/test/testhelper/settings"
+	"../../test/suites/build"
+	"../../test/suites/image"
+	"../../test/suites/registry"
+	"../../test/testhelper"
+	"../../test/testhelper/settings"
 )
 
 var _ = Describe("sealer image", func() {

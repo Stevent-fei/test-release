@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"strings"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils/net"
-	"github.com/sealerio/sealer/utils/platform"
+	v1 "../../types/api/v1"
+	"../../utils/net"
+	"../../utils/platform"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

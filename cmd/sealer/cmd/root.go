@@ -23,9 +23,9 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/sealerio/sealer/common"
-	remotelogger "github.com/sealerio/sealer/pkg/remote-logger"
-	"github.com/sealerio/sealer/version"
+	"../../common"
+	remotelogger "../../pkg/remote-logger"
+	"../../version"
 )
 
 type rootOpts struct {

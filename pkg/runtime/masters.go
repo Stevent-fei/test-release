@@ -22,12 +22,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/cert"
-	"github.com/sealerio/sealer/pkg/ipvs"
-	"github.com/sealerio/sealer/utils/net"
-	"github.com/sealerio/sealer/utils/ssh"
-	"github.com/sealerio/sealer/utils/yaml"
+	"../../common"
+	"../../pkg/cert"
+	"../../pkg/ipvs"
+	"../../utils/net"
+	"../../utils/ssh"
+	"../../utils/yaml"
 
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"

@@ -25,7 +25,7 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	utilrand "k8s.io/apimachinery/pkg/util/rand"
 
-	"github.com/sealerio/sealer/common"
+	"../../common"
 )
 
 func NewDebugPodCommand(options *DebuggerOptions) *cobra.Command {

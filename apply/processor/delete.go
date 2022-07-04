@@ -17,15 +17,15 @@ package processor
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/clusterfile"
-	"github.com/sealerio/sealer/pkg/filesystem"
-	"github.com/sealerio/sealer/pkg/filesystem/cloudfilesystem"
-	"github.com/sealerio/sealer/pkg/filesystem/clusterimage"
-	"github.com/sealerio/sealer/pkg/plugin"
-	"github.com/sealerio/sealer/pkg/runtime"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	"github.com/sealerio/sealer/utils/strings"
+	"../../common"
+	"../../pkg/clusterfile"
+	"../../pkg/filesystem"
+	"../../pkg/filesystem/cloudfilesystem"
+	"../../pkg/filesystem/clusterimage"
+	"../../pkg/plugin"
+	"../../pkg/runtime"
+	v2 "../../types/api/v2"
+	"../../utils/strings"
 )
 
 type DeleteProcessor struct {

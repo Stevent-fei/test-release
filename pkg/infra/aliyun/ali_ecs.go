@@ -28,9 +28,9 @@ import (
 	"github.com/aliyun/alibaba-cloud-sdk-go/services/ecs"
 	"github.com/sirupsen/logrus"
 
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	"github.com/sealerio/sealer/utils"
-	strUtils "github.com/sealerio/sealer/utils/strings"
+	v1 "../../types/api/v1"
+	"../../utils"
+	strUtils "../../utils/strings"
 )
 
 type Instance struct {

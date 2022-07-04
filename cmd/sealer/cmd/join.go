@@ -15,12 +15,12 @@
 package cmd
 
 import (
-	"github.com/sealerio/sealer/pkg/cert"
+	"../../pkg/cert"
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/apply"
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/clusterfile"
+	"../../apply"
+	"../../common"
+	"../../pkg/clusterfile"
 )
 
 var clusterName string

@@ -22,9 +22,9 @@ import (
 	"github.com/sirupsen/logrus"
 	"sigs.k8s.io/yaml"
 
-	"github.com/sealerio/sealer/common"
-	"github.com/sealerio/sealer/pkg/image/store"
-	v1 "github.com/sealerio/sealer/types/api/v1"
+	"../../common"
+	"../../pkg/image/store"
+	v1 "../../types/api/v1"
 )
 
 var imageChain *chainStore

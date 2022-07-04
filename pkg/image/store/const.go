@@ -15,7 +15,7 @@
 package store
 
 import (
-	"github.com/sealerio/sealer/common"
+	"../../common"
 )
 
 const (

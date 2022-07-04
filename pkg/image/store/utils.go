@@ -15,7 +15,7 @@
 package store
 
 import (
-	osi "github.com/sealerio/sealer/utils/os"
+	osi "../../utils/os"
 )
 
 func traverseLayerDB(layerDBRoot string) ([]string, error) {

@@ -19,7 +19,7 @@ import (
 	"net"
 	"strings"
 
-	netutils "github.com/sealerio/sealer/utils/net"
+	netutils "../../utils/net"
 )
 
 func validateIPStr(inputStr string) error {

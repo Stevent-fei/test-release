@@ -17,8 +17,8 @@ package image
 import (
 	"fmt"
 
-	"github.com/sealerio/sealer/pkg/image/cache"
-	"github.com/sealerio/sealer/pkg/image/store"
+	"../../pkg/image/cache"
+	"../../pkg/image/store"
 )
 
 func (d DefaultImageService) BuildImageCache() (Cache, error) {

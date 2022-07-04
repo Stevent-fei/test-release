@@ -22,11 +22,11 @@ import (
 	"github.com/imdario/mergo"
 	"github.com/sirupsen/logrus"
 
-	"github.com/sealerio/sealer/common"
-	v1 "github.com/sealerio/sealer/types/api/v1"
-	v2 "github.com/sealerio/sealer/types/api/v2"
-	netUtils "github.com/sealerio/sealer/utils/net"
-	"github.com/sealerio/sealer/utils/os/fs"
+	"../../common"
+	v1 "../../types/api/v1"
+	v2 "../../types/api/v2"
+	netUtils "../../utils/net"
+	"../../utils/os/fs"
 )
 
 type Interface interface {

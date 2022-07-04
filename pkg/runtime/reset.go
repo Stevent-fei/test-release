@@ -18,7 +18,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sealerio/sealer/utils/exec"
+	"../../utils/exec"
 
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sync/errgroup"

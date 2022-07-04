@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/sealerio/sealer/pkg/client/k8s"
+	"../../pkg/client/k8s"
 	"github.com/sirupsen/logrus"
 )
 

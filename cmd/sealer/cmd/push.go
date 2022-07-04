@@ -17,8 +17,8 @@ package cmd
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/sealerio/sealer/pkg/image"
-	"github.com/sealerio/sealer/pkg/image/utils"
+	"../../pkg/image"
+	"../../pkg/image/utils"
 )
 
 // pushCmd represents the push command
