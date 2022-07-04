@@ -1,28 +1,20 @@
-name: Release
+name: Release Drafter
 
 on:
   push:
-    tags:
-      - '*'
-jobs:
+    branches:
+      - main
 
-  goreleaser:
+jobs:
+  update_release_draft:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 1
-      - name: Unshallow
-        run: git fetch --prune --unshallow
-      - name: Set up Go 1.17
-        uses: actions/setup-go@v2
-        with:
-          go-version: 1.17
-      - name: Run GoReleaser
-        uses: goreleaser/goreleaser-action@v2.8.1
-        with:
-          version: latest
-          args: release --rm-dist
+      - uses: release-drafter/release-drafter@v5
+        id: drafter
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: write release drafter to file
+        shell: bash
+        run: |
+            echo "${{steps.drafter.outputs.body}}" >> release_note.md
+            cat release_note.md
