@@ -2,6 +2,7 @@
 name-template: 'v$NEXT_PATCH_VERSION 🌈'
 tag-template: 'v$NEXT_PATCH_VERSION'
 version-template: $MAJOR.$MINOR.$PATCH
+# Emoji reference: https://gitmoji.carloscuesta.me/
 categories:
   - title: '🚀 Features'
     labels:
@@ -13,6 +14,7 @@ categories:
       - 'fix'
       - 'bugfix'
       - 'bug'
+      - 'regression'
       - 'kind/bug'
   - title: 📝 Documentation updates
     labels:
@@ -24,7 +26,7 @@ categories:
       - dependencies
       - 'kind/cleanup'
   - title: 🚦 Tests
-    labels: 
+    labels:
       - test
       - tests
 exclude-labels:
